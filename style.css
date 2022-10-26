@@ -1,0 +1,36 @@
+body {
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    min-width: 400px;
+    text-align: center;
+    margin-top: 4rem;
+}
+ 
+h1{
+    font-size: 3rem;
+}
+
+#ville {
+    text-transform: capitalize;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+
+}
+  
+#temps {
+    font-size: 4em;
+    margin-top: 3rem;
+}
+  
+#modifier {
+  background: rgba(178, 223, 251, .3);
+  margin-top: 2rem;
+  cursor: pointer;
+  display: inline-block;
+  justify-content: center;
+  color: #FFFFFF;
+  padding: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
